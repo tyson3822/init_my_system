@@ -8,7 +8,7 @@ OUTPUT_LOG=${HOME}/packages/install_tools_${DATETIME}.log
 
 # For Ubuntu
 #INSTALL_SVR_LIST=('linux-tools-common' 'wget' 'ntpdate' 'vim' 'nmon' 'htop' 'arp' 'taskset' 'telnet' 'valgrind' 'tmux' 'tree' 'net-tools' 'iperf' 'nc' 'nmap' 'libpcap-dev' 'fping' 'python3' 'tcpreplay' 'cifs-utils' 'tshark' 'wireshark' 'rename' 'smartmontools' 'mlocate' 'fontconfig' 'chrony' 'vsftpd' 'apache2' 'traceroute' 'lm-sensors' 'datamash' 'nfs-utils' 'mariadb' 'mysql-devel' 'mysql++' 'mysql++-devel' 'chromium-browser')
-INSTALL_LIST=('linux-tools-common' 'wget' 'ntpdate' 'vim' 'nmon' 'htop' 'arp' 'taskset' 'telnet' 'valgrind' 'tmux' 'tree' 'net-tools' 'iperf' 'nc' 'nmap' 'libpcap-dev' 'fping' 'python3' 'tcpreplay' 'cifs-utils' 'tshark' 'rename' 'smartmontools' 'mlocate' 'fontconfig' 'chrony' 'vsftpd' 'traceroute' 'lm-sensors' 'datamash' 'nfs-common' 'mysql-client' 'libmysqlclient-dev' 'libmysql++-dev')
+INSTALL_LIST=('linux-tools-common' 'linux-tools-5.4.0-131-generic' 'wget' 'ntpdate' 'vim' 'nmon' 'htop' 'arp' 'taskset' 'telnet' 'valgrind' 'tmux' 'tree' 'net-tools' 'iperf' 'nc' 'nmap' 'libpcap-dev' 'fping' 'python3' 'tcpreplay' 'cifs-utils' 'tshark' 'rename' 'smartmontools' 'mlocate' 'fontconfig' 'chrony' 'vsftpd' 'traceroute' 'lm-sensors' 'datamash' 'nfs-common' 'mysql-client' 'libmysqlclient-dev' 'libmysql++-dev')
 
 # Useless
 #USELESS=('zlib-devel*' 'gmp-devel.x86_64' 'libmpc-devel.x86_64' 'mpfr-devel.x86_64' 'pigz' 'dkms' 'libpng12' 'xorg-x11-server-utils.x86_64' 'xorg-x11-xauth.x86_64' 'xorg-x11-server-common.x86_64' 'xorg-x11-server-Xorg.x86_64' 'fontconfig')
